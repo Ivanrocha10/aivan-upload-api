@@ -12,6 +12,7 @@ app.register(fastifyCors, {
 })
 
 
+
 app.register(getAllPromptsRoute)
 app.register(uploadVideoRoute)
 app.register(createTranscriptionRoute)
