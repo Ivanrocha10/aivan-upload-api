@@ -38,6 +38,7 @@ export async function generateAICompletionRoute(app: FastifyInstance) {
     })
 
     const stream = OpenAIStream(response)
+    
 
     streamToResponse(stream, reply.raw, {
       headers: {
